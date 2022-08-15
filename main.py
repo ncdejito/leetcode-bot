@@ -16,8 +16,7 @@ request = {
     "type": "stream",
     "to": "test-bot",
     "topic": "testing botji",
-    "content": "env file works ok",
-    # "content": "Hello world! - Heroku",
+    "content": "Hello world! - Heroku",
 #     "content": """
 # **Beginner**: Blind75 at neetcode. io
 # [Best time to Buy and Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
