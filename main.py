@@ -14,9 +14,9 @@ client = zulip.Client(
 # Send a stream message
 request = {
     "type": "stream",
-    "to": "test-bot",
-    "topic": "testing botji",
-    "content": "Hello world! - Heroku",
+    "to": "397 Bridge",
+    "topic": "Daily LeetCode!",
+    "content": "Hello world!",
 #     "content": """
 # **Beginner**: Blind75 at neetcode. io
 # [Best time to Buy and Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)

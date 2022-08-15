@@ -8,17 +8,29 @@ Install
 * PostgreSQL 12.11
 * Ubuntu 20.04.1
 * Poetry
+* [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler#dyno-hour-costs)
 
-Create a `.env` file
-```
-export ZULIP_EMAIL=leetcode-test-bot@recurse.zulipchat.com
-export ZULIP_API_KEY=<API_KEY>
-export ZULIP_SITE=https://recurse.zulipchat.com
-```
-
+## Build
 Generate requirements.txt
 ```
 poetry export -f requirements.txt --output requirements.txt
+```
+
+Push config
+```
+heroku config:set ZULIP_EMAIL=leetcode-test-bot@recurse.zulipchat.com
+heroku config:set ZULIP_API_KEY=<API_KEY>
+heroku config:set ZULIP_SITE=https://recurse.zulipchat.com
+```
+
+## Deploy
+```
+git push heroku main
+```
+
+## Schedule
+```
+https://dashboard.heroku.com/apps/<APP_NAME>/scheduler
 ```
 
 ## Run
