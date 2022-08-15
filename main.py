@@ -16,17 +16,17 @@ request = {
     "type": "stream",
     "to": "397 Bridge",
     "topic": "Daily LeetCode!",
-    "content": "Hello world!",
-#     "content": """
-# **Beginner**: Blind75 at neetcode. io
-# [Best time to Buy and Sell Stocks](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+    # "content": "Hello world!",
+    "content": """
+**Beginner**: Blind75 at neetcode. io
+[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
-# **Intermediate**: Enjeck's list
-# 07/29 Problems for Friday, theme is Pattern recognition:
-# 1. [Easy](https://leetcode.com/problems/word-pattern)
-# 1. [Medium](https://leetcode.com/problems/find-and-replace-pattern/)
-# 1. [Medium](https://leetcode.com/problems/132-pattern)
+**Intermediate**: Enjeck's list
+08/09 Problems for Tuesday, theme is Factors:
+1. [Medium](https://leetcode.com/problems/binary-trees-with-factors/)
+1. [Medium](https://leetcode.com/problems/the-kth-factor-of-n)
+1. [Hard](https://leetcode.com/problems/largest-component-size-by-common-factor)
     
-#     """,
+    """,
 }
 result = client.send_message(request)
