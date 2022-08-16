@@ -1,32 +1,28 @@
 #!/usr/bin/env python3
 
-import zulip
-import os
+from src.problem_sets import problem_sets
+from src.zulip_comms import send, get_client
+from src.scheduling import on_schedule, no_similar_posts
 
-# Pass the path to your zuliprc file here.
-client = zulip.Client(
-    api_key = os.environ.get("ZULIP_API_KEY"),
-    email = os.environ.get("ZULIP_EMAIL"),
-    site = os.environ.get("ZULIP_SITE"),
-    # config_file="zuliprc"
-)
 
-# Send a stream message
-request = {
-    "type": "stream",
-    "to": "397 Bridge",
-    "topic": "Daily LeetCode!",
-    # "content": "Hello world!",
-    "content": """
-**Beginner**: Blind75 at neetcode. io
-[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+client = get_client()
 
-**Intermediate**: Enjeck's list
-08/09 Problems for Tuesday, theme is Factors:
-1. [Medium](https://leetcode.com/problems/binary-trees-with-factors/)
-1. [Medium](https://leetcode.com/problems/the-kth-factor-of-n)
-1. [Hard](https://leetcode.com/problems/largest-component-size-by-common-factor)
-    
-    """,
-}
-result = client.send_message(request)
+
+def main(destination="staging"):
+
+    if on_schedule():
+
+        post = ""
+
+        for problem_set in problem_sets:
+            post += problem_set.get_problems() + "\n"
+
+        if no_similar_posts(post=post, from_hours_before=24):
+            send(post, client, destination)
+
+    return post
+
+
+if __name__ == "main":
+    # _ = main(destination="prod")
+    pass
