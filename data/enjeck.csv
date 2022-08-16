@@ -1,0 +1,323 @@
+Category,Difficulty,Problem,Link,date
+Greedy,Easy,Best Time To Buy And Sell Stock,https://leetcode.com/problems/best-time-to-buy-and-sell-stock/,2022-03-30 19:17:19
+Greedy,Medium,Task Scheduler,https://leetcode.com/problems/task-scheduler/,2022-03-30 19:17:19
+Greedy,Medium,Reorganize String,https://leetcode.com/problems/reorganize-string/,2022-03-30 19:17:19
+Greedy,Hard,Course Schedule Iii,https://leetcode.com/problems/course-schedule-iii/,2022-03-30 19:17:19
+Design,Easy,Problems,https://leetcode.com/problems/implement-stack-using-queues,2022-03-31 18:17:48
+Design,Easy,Problems,https://leetcode.com/problems/implement-queue-using-stacks,2022-03-31 18:17:48
+Design,Medium,Problems,https://leetcode.com/problems/lru-cache,2022-03-31 18:17:48
+Design,Medium,Implement Trie Prefix Tree,https://leetcode.com/problems/implement-trie-prefix-tree/,2022-03-31 18:17:48
+Design,Hard,Serialize And Deserialize Binary Tree,https://leetcode.com/problems/serialize-and-deserialize-binary-tree/,2022-03-31 18:17:48
+Linked list reversals,Easy,Reverse Linked List,https://leetcode.com/problems/reverse-linked-list/,2022-04-02 10:21:46
+Linked list reversals,Medium,Reverse Linked List Ii,https://leetcode.com/problems/reverse-linked-list-ii/,2022-04-02 10:21:46
+Linked list reversals,Medium,Odd Even Linked List,https://leetcode.com/problems/odd-even-linked-list/,2022-04-02 10:21:46
+Linked list reversals,Hard,Reverse Nodes In K Group,https://leetcode.com/problems/reverse-nodes-in-k-group/,2022-04-02 10:21:46
+Stack,Easy,Min Stack,https://leetcode.com/problems/min-stack/,2022-04-05 02:37:46
+Stack,Medium,Evaluate Reverse Polish Notation,https://leetcode.com/problems/evaluate-reverse-polish-notation/,2022-04-05 02:37:46
+Stack,Medium,Car Fleet,https://leetcode.com/problems/car-fleet/,2022-04-05 02:37:46
+Stack,Hard,Largest Rectangle In Histogram,https://leetcode.com/problems/largest-rectangle-in-histogram/,2022-04-05 02:37:46
+Math,Easy,Happy Number,https://leetcode.com/problems/happy-number/,2022-04-05 18:41:35
+Math,Medium,Powx N,https://leetcode.com/problems/powx-n/,2022-04-05 18:41:35
+Math,Medium,Multiply Strings,https://leetcode.com/problems/multiply-strings/,2022-04-05 18:41:35
+Math,Medium,Detect Squares,https://leetcode.com/problems/detect-squares/,2022-04-05 18:41:35
+Intervals,Medium,Insert Interval,https://leetcode.com/problems/insert-interval/,2022-04-06 19:35:18
+Intervals,Medium,Merge Intervals,https://leetcode.com/problems/merge-intervals/,2022-04-06 19:35:18
+Intervals,Hard,Minimum Interval To Include Each Query,https://leetcode.com/problems/minimum-interval-to-include-each-query/,2022-04-06 19:35:18
+Graphs,Easy,Find The Town Judge,https://leetcode.com/problems/find-the-town-judge/,2022-04-07 20:52:57
+Graphs,Medium,Number Of Islands,https://leetcode.com/problems/number-of-islands/,2022-04-07 20:52:57
+Graphs,Medium,Clone Graph,https://leetcode.com/problems/clone-graph/,2022-04-07 20:52:57
+Graphs,Hard,Word Ladder,https://leetcode.com/problems/word-ladder/,2022-04-07 20:52:57
+Backtracking,Easy,Binary Tree Paths,https://leetcode.com/problems/binary-tree-paths/,2022-04-08 19:53:05
+Backtracking,Medium,Subsets,https://leetcode.com/problems/subsets/,2022-04-08 19:53:05
+Backtracking,Medium,Combination Sum,https://leetcode.com/problems/combination-sum/,2022-04-08 19:53:05
+Backtracking,Hard,N Queens,https://leetcode.com/problems/n-queens/,2022-04-08 19:53:05
+Matrices,Easy,Check If Every Row And Column Contains All Numbers,https://leetcode.com/problems/check-if-every-row-and-column-contains-all-numbers/,2022-04-11 21:20:58
+Matrices,Medium,Set Matrix Zeroes,https://leetcode.com/problems/set-matrix-zeroes/,2022-04-11 21:20:58
+Matrices,Medium,Word Search,https://leetcode.com/problems/word-search/,2022-04-11 21:20:58
+Matrices,Hard,Problems,https://leetcode.com/problems/sudoku-solver,2022-04-11 21:20:58
+Binary search trees,Easy,Lowest Common Ancestor Of A Binary Search Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/,2022-04-13 05:42:07
+Binary search trees,Medium,Kth Smallest Element In A Bst,https://leetcode.com/problems/kth-smallest-element-in-a-bst/,2022-04-13 05:42:07
+Binary search trees,Medium,Validate Binary Search Tree,https://leetcode.com/problems/validate-binary-search-tree/,2022-04-13 05:42:07
+Binary search trees,Hard,Problems,https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst,2022-04-13 05:42:07
+Graphs (with matrices),Easy,Problems,https://leetcode.com/problems/flood-fill,2022-04-14 02:42:13
+Graphs (with matrices),Medium,Problems,https://leetcode.com/problems/01-matrix,2022-04-14 02:42:13
+Graphs (with matrices),Medium,Problems,https://leetcode.com/problems/rotting-oranges,2022-04-14 02:42:13
+Graphs (with matrices),Hard,Problems,https://leetcode.com/problems/longest-increasing-path-in-a-matrix,2022-04-14 02:42:13
+Binary tree bfs,Easy,Average Of Levels In Binary Tree,https://leetcode.com/problems/average-of-levels-in-binary-tree/,2022-04-14 23:59:56
+Binary tree bfs,Medium,Binary Tree Level Order Traversal,https://leetcode.com/problems/binary-tree-level-order-traversal/,2022-04-14 23:59:56
+Binary tree bfs,Medium,Binary Tree Level Order Traversal Ii,https://leetcode.com/problems/binary-tree-level-order-traversal-ii/,2022-04-14 23:59:56
+Binary tree bfs,Medium,Binary Tree Zigzag Level Order Traversal,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/,2022-04-14 23:59:56
+Two pointers,Easy,Valid Palindrome,https://leetcode.com/problems/valid-palindrome/,2022-04-18 06:17:04
+Two pointers,Medium,Two Sum Ii Input Array Is Sorted,https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/,2022-04-18 06:17:04
+Two pointers,Medium,3Sum,https://leetcode.com/problems/3sum/,2022-04-18 06:17:04
+Two pointers,Hard,Trapping Rain Water,https://leetcode.com/problems/trapping-rain-water/,2022-04-18 06:17:04
+One dimensional dp,Easy,Min Cost Climbing Stairs,https://leetcode.com/problems/min-cost-climbing-stairs/,2022-04-18 19:46:50
+One dimensional dp,Medium,Longest Palindromic Substring,https://leetcode.com/problems/longest-palindromic-substring/,2022-04-18 19:46:50
+One dimensional dp,Medium,Coin Change,https://leetcode.com/problems/coin-change/,2022-04-18 19:46:50
+One dimensional dp,Medium,Palindromic Substrings,https://leetcode.com/problems/palindromic-substrings/,2022-04-18 19:46:50
+Sliding window,Easy,Contains Duplicate Ii,https://leetcode.com/problems/contains-duplicate-ii/,2022-04-20 06:46:16
+Sliding window,Medium,Longest Repeating Character Replacement,https://leetcode.com/problems/longest-repeating-character-replacement/,2022-04-20 06:46:16
+Sliding window,Medium,Permutation In String,https://leetcode.com/problems/permutation-in-string/,2022-04-20 06:46:16
+Sliding window,Hard,Minimum Window Substring,https://leetcode.com/problems/minimum-window-substring/,2022-04-20 06:46:16
+Advanced graphs,Medium,Min Cost To Connect All Points,https://leetcode.com/problems/min-cost-to-connect-all-points/,2022-04-20 19:38:45
+Advanced graphs,Medium,Network Delay Time,https://leetcode.com/problems/network-delay-time/,2022-04-20 19:38:45
+2-dimensional dp,Medium,Coin Change 2,https://leetcode.com/problems/coin-change-2/,2022-04-22 01:10:54
+2-dimensional dp,Medium,Interleaving String,https://leetcode.com/problems/interleaving-string/,2022-04-22 01:10:54
+2-dimensional dp,Hard,Regular Expression Matching,https://leetcode.com/problems/regular-expression-matching/,2022-04-22 01:10:54
+Sorting,Easy,Intersection Of Two Arrays,https://leetcode.com/problems/intersection-of-two-arrays/,2022-04-25 05:42:50
+Sorting,Medium,Problems,https://leetcode.com/problems/sort-colors,2022-04-25 05:42:50
+Sorting,Medium,Problems,https://leetcode.com/problems/4sum,2022-04-25 05:42:50
+Sorting,Hard,Maximum Gap,https://leetcode.com/problems/maximum-gap/,2022-04-25 05:42:50
+Backtracking,Medium,Combination Sum,https://leetcode.com/problems/combination-sum/,2022-04-25 21:54:14
+Backtracking,Medium,Combination Sum Ii,https://leetcode.com/problems/combination-sum-ii/,2022-04-25 21:54:14
+Backtracking,Hard,Problems,https://leetcode.com/problems/n-queens,2022-04-25 21:54:14
+Graphs,Medium,Max Area Of Island,https://leetcode.com/problems/max-area-of-island/,2022-04-27 04:18:53
+Graphs,Medium,Pacific Atlantic Water Flow,https://leetcode.com/problems/pacific-atlantic-water-flow/,2022-04-27 04:18:53
+Graphs,Hard,Problems,https://leetcode.com/problems/reconstruct-itinerary,2022-04-27 04:18:53
+Bit manipulation,Easy,Number Of 1 Bits,https://leetcode.com/problems/number-of-1-bits/,2022-04-28 01:56:45
+Bit manipulation,Easy,Counting Bits,https://leetcode.com/problems/counting-bits/,2022-04-28 01:56:45
+Bit manipulation,Medium,Sum Of Two Integers,https://leetcode.com/problems/sum-of-two-integers/,2022-04-28 01:56:45
+Bit manipulation,Medium,Reverse Integer,https://leetcode.com/problems/reverse-integer/,2022-04-28 01:56:45
+Linked lists,Easy,Linked List Cycle,https://leetcode.com/problems/linked-list-cycle/,2022-04-29 06:05:18
+Linked lists,Easy,Middle Of The Linked List,https://leetcode.com/problems/middle-of-the-linked-list/,2022-04-29 06:05:18
+Linked lists,Medium,Linked List Cycle Ii,https://leetcode.com/problems/linked-list-cycle-ii/,2022-04-29 06:05:18
+Linked lists,Medium,Sort List,https://leetcode.com/problems/sort-list/,2022-04-29 06:05:18
+Recursion,Easy,Problems,https://leetcode.com/problems/regular-expression-matching,2022-05-02 06:02:05
+Recursion,Medium,Different Ways To Add Parentheses,https://leetcode.com/problems/different-ways-to-add-parentheses/,2022-05-02 06:02:05
+Recursion,Medium,Powx N,https://leetcode.com/problems/powx-n/,2022-05-02 06:02:05
+Recursion,Hard,Problems,https://leetcode.com/problems/regular-expression-matching,2022-05-02 06:02:05
+Palindromes,Easy,Problems,https://leetcode.com/problems/palindrome-number,2022-05-03 07:13:13
+Palindromes,Medium,Problems,https://leetcode.com/problems/palindrome-partitioning,2022-05-03 07:13:13
+Palindromes,Medium,Problems,https://leetcode.com/problems/prime-palindrome,2022-05-03 07:13:13
+Palindromes,Hard,Problems,https://leetcode.com/problems/shortest-palindrome,2022-05-03 07:13:13
+Heaps,Medium,Problems,https://leetcode.com/problems/top-k-frequent-elements,2022-05-04 04:46:44
+Heaps,Medium,Problems,https://leetcode.com/problems/kth-largest-element-in-an-array,2022-05-04 04:46:44
+Heaps,Hard,Problems,https://leetcode.com/problems/merge-k-sorted-lists,2022-05-04 04:46:44
+Graphs,Easy,Problems,https://leetcode.com/problems/find-if-path-exists-in-graph,2022-05-05 04:33:43
+Graphs,Medium,Problems,https://leetcode.com/problems/course-schedule,2022-05-05 04:33:43
+Graphs,Medium,Problems,https://leetcode.com/problems/course-schedule-ii,2022-05-05 04:33:43
+Graphs,Hard,Word Ladder,https://leetcode.com/problems/word-ladder/,2022-05-05 04:33:43
+Divide and conquer,Easy,Problems,https://leetcode.com/problems/majority-element,2022-05-06 03:42:27
+Divide and conquer,Medium,Problems,https://leetcode.com/problems/wiggle-sort-ii,2022-05-06 03:42:27
+Divide and conquer,Medium,Problems,https://leetcode.com/problems/search-a-2d-matrix-ii,2022-05-06 03:42:27
+Divide and conquer,Hard,Problems,https://leetcode.com/problems/median-of-two-sorted-arrays,2022-05-06 03:42:27
+Simulation,Easy,Problems,https://leetcode.com/problems/add-binary,2022-05-09 06:03:00
+Simulation,Medium,Problems,https://leetcode.com/problems/game-of-life,2022-05-09 06:03:00
+Simulation,Medium,Problems,https://leetcode.com/problems/complex-number-multiplication,2022-05-09 06:03:00
+Simulation,Hard,Problems,https://leetcode.com/problems/contain-virus,2022-05-09 06:03:00
+Subsequences,Easy,Problems,https://leetcode.com/problems/longest-harmonious-subsequence,2022-05-10 05:41:46
+Subsequences,Medium,Problems,https://leetcode.com/problems/longest-increasing-subsequence,2022-05-10 05:41:46
+Subsequences,Medium,Problems,https://leetcode.com/problems/increasing-triplet-subsequence,2022-05-10 05:41:46
+Subsequences,Hard,Problems,https://leetcode.com/problems/distinct-subsequences,2022-05-10 05:41:46
+Subsets,Easy,Problems,https://leetcode.com/problems/sum-of-all-subset-xor-totals,2022-05-11 06:27:49
+Subsets,Medium,Problems,https://leetcode.com/problems/largest-divisible-subset,2022-05-11 06:27:49
+Subsets,Medium,Problems,https://leetcode.com/problems/word-subsets,2022-05-11 06:27:49
+Subsets,Hard,Problems,https://leetcode.com/problems/the-number-of-good-subsets,2022-05-11 06:27:49
+Monotonic stack,Easy,Problems,https://leetcode.com/problems/next-greater-element-i,2022-05-12 12:20:02
+Monotonic stack,Medium,Problems,https://leetcode.com/problems/daily-temperatures,2022-05-12 12:20:02
+Monotonic stack,Medium,Problems,https://leetcode.com/problems/132-pattern,2022-05-12 12:20:02
+Monotonic stack,Hard,Problems,https://leetcode.com/problems/largest-rectangle-in-histogram,2022-05-12 12:20:02
+Counting,Easy,Problems,https://leetcode.com/problems/count-binary-substrings,2022-05-13 13:55:21
+Counting,Medium,Problems,https://leetcode.com/problems/count-and-say,2022-05-13 13:55:21
+Counting,Medium,Problems,https://leetcode.com/problems/subdomain-visit-count,2022-05-13 13:55:21
+Counting,Hard,Problems,https://leetcode.com/problems/count-the-repetitions,2022-05-13 13:55:21
+Prefix sum,Easy,Problems,https://leetcode.com/problems/find-pivot-index,2022-05-15 04:46:12
+Prefix sum,Medium,Number Of Ways To Split Array,https://leetcode.com/problems/number-of-ways-to-split-array/,2022-05-15 04:46:12
+Prefix sum,Medium,Minimum Size Subarray Sum,https://leetcode.com/problems/minimum-size-subarray-sum/,2022-05-15 04:46:12
+Prefix sum,Hard,Problems,https://leetcode.com/problems/number-of-submatrices-that-sum-to-target,2022-05-15 04:46:12
+String matching,Easy,Problems,https://leetcode.com/problems/implement-strstr,2022-05-17 05:07:35
+String matching,Medium,Problems,https://leetcode.com/problems/repeated-string-match,2022-05-17 05:07:35
+String matching,Medium,Problems,https://leetcode.com/problems/camelcase-matching,2022-05-17 05:07:35
+String matching,Hard,Problems,https://leetcode.com/problems/find-all-good-strings,2022-05-17 05:07:35
+Union find,Medium,Problems,https://leetcode.com/problems/number-of-provinces,2022-05-18 10:21:45
+Union find,Medium,Problems,https://leetcode.com/problems/redundant-connection,2022-05-18 10:21:45
+Union find,Hard,Problems,https://leetcode.com/problems/redundant-connection-ii,2022-05-18 10:21:45
+Increasing subsequences,Easy,Problems,https://leetcode.com/problems/longest-continuous-increasing-subsequence,2022-05-19 12:52:48
+Increasing subsequences,Medium,Problems,https://leetcode.com/problems/increasing-subsequences,2022-05-19 12:52:48
+Increasing subsequences,Medium,Problems,https://leetcode.com/problems/number-of-longest-increasing-subsequence,2022-05-19 12:52:48
+Increasing subsequences,Hard,Problems,https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing,2022-05-19 12:52:48
+Unique paths,Easy,Path Crossing,"https://leetcode.com/problems/path-crossing/ (Not very relevant to the theme, just wanted to add an easy problem)",2022-05-20 05:41:15
+Unique paths,Medium,Unique Paths,https://leetcode.com/problems/unique-paths/,2022-05-20 05:41:15
+Unique paths,Medium,Unique Paths Ii,https://leetcode.com/problems/unique-paths-ii/,2022-05-20 05:41:15
+Unique paths,Hard,Unique Paths Iii,https://leetcode.com/problems/unique-paths-iii/,2022-05-20 05:41:15
+Tree sum,Easy,Problems,https://leetcode.com/problems/sum-of-left-leaves,2022-05-23 12:46:14
+Tree sum,Medium,Sum Root To Leaf Numbers,https://leetcode.com/problems/sum-root-to-leaf-numbers/,2022-05-23 12:46:14
+Tree sum,Medium,Path Sum Ii,https://leetcode.com/problems/path-sum-ii/,2022-05-23 12:46:14
+Tree sum,Hard,Problems,https://leetcode.com/problems/sum-of-distances-in-tree,2022-05-23 12:46:14
+Binary search trees,Easy,Problems,https://leetcode.com/problems/minimum-distance-between-bst-nodes,2022-05-24 14:11:55
+Binary search trees,Medium,Problems,https://leetcode.com/problems/serialize-and-deserialize-bst,2022-05-24 14:11:55
+Binary search trees,Medium,Problems,https://leetcode.com/problems/convert-bst-to-greater-tree,2022-05-24 14:11:55
+Binary search trees,Hard,Problems,https://leetcode.com/problems/merge-bsts-to-create-single-bst,2022-05-24 14:11:55
+Binary search,Easy,Problems,https://leetcode.com/problems/valid-perfect-square,2022-05-25 11:22:31
+Binary search,Medium,Problems,https://leetcode.com/problems/search-a-2d-matrix,2022-05-25 11:22:31
+Binary search,Medium,Problems,https://leetcode.com/problems/search-a-2d-matrix-ii,2022-05-25 11:22:31
+Binary search,Hard,Problems,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii,2022-05-25 11:22:31
+Design,Easy,Problems,https://leetcode.com/problems/design-hashset,2022-05-26 12:33:58
+Design,Medium,Problems,https://leetcode.com/problems/design-circular-queue,2022-05-26 12:33:58
+Design,Medium,Problems,https://leetcode.com/problems/design-linked-list,2022-05-26 12:33:58
+Design,Hard,Problems,https://leetcode.com/problems/maximum-frequency-stack,2022-05-26 12:33:58
+Greedy,Easy,Problems,https://leetcode.com/problems/assign-cookies,2022-05-27 09:46:29
+Greedy,Medium,Merge Triplets To Form Target Triplet,https://leetcode.com/problems/merge-triplets-to-form-target-triplet/,2022-05-27 09:46:29
+Greedy,Medium,Hand Of Straights,https://leetcode.com/problems/hand-of-straights/,2022-05-27 09:46:29
+Greedy,Hard,Problems,https://leetcode.com/problems/candy,2022-05-27 09:46:29
+Removing duplicates,Easy,Problems,https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string,2022-05-30 13:07:11
+Removing duplicates,Medium,Problems,https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii,2022-05-30 13:07:11
+Removing duplicates,Medium,Problems,https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii,2022-05-30 13:07:11
+Removing duplicates,Hard,Problems,https://leetcode.com/problems/delete-duplicate-folders-in-system,2022-05-30 13:07:11
+Binary strings,Easy,Problems,https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string,2022-05-31 06:13:00
+Binary strings,Medium,Find Kth Bit In Nth Binary String,https://leetcode.com/problems/find-kth-bit-in-nth-binary-string/,2022-05-31 06:13:00
+Binary strings,Medium,Check If A String Contains All Binary Codes Of Size K,https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/,2022-05-31 06:13:00
+Binary strings,Hard,Special Binary String,https://leetcode.com/problems/special-binary-string/,2022-05-31 06:13:00
+Array sum,Easy,Running Sum Of 1D Array,https://leetcode.com/problems/running-sum-of-1d-array/,2022-06-01 16:14:53
+Array sum,Medium,Problems,https://leetcode.com/problems/find-triangular-sum-of-an-array,2022-06-01 16:14:53
+Array sum,Medium,Sum Of Beauty In The Array,https://leetcode.com/problems/sum-of-beauty-in-the-array/,2022-06-01 16:14:53
+Array sum,Hard,Problems,https://leetcode.com/problems/maximum-and-sum-of-array,2022-06-01 16:14:53
+Matrix transformations,Easy,Transpose Matrix,https://leetcode.com/problems/transpose-matrix/,2022-06-02 02:03:54
+Matrix transformations,Easy,Reshape The Matrix,https://leetcode.com/problems/reshape-the-matrix/,2022-06-02 02:03:54
+Matrix transformations,Medium,Sort The Matrix Diagonally,https://leetcode.com/problems/sort-the-matrix-diagonally/,2022-06-02 02:03:54
+Matrix transformations,Medium,Spiral Matrix Ii,https://leetcode.com/problems/spiral-matrix-ii/,2022-06-02 02:03:54
+Range sum queries,Easy,Problems,https://leetcode.com/problems/range-sum-query-immutable,2022-06-03 15:55:19
+Range sum queries,Medium,Range Sum Query 2D Immutable,https://leetcode.com/problems/range-sum-query-2d-immutable/,2022-06-03 15:55:19
+Range sum queries,Medium,Problems,https://leetcode.com/problems/range-sum-query-mutable,2022-06-03 15:55:19
+Consecutive numbers,Easy,Three Consecutive Odds,https://leetcode.com/problems/three-consecutive-odds/,2022-06-06 15:38:41
+Consecutive numbers,Medium,Longest Consecutive Sequence,https://leetcode.com/problems/longest-consecutive-sequence/,2022-06-06 15:38:41
+Consecutive numbers,Medium,Find Three Consecutive Integers That Sum To A Given Number,https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/,2022-06-06 15:38:41
+Consecutive numbers,Hard,Consecutive Numbers Sum,https://leetcode.com/problems/consecutive-numbers-sum/,2022-06-06 15:38:41
+Grouping,Easy,Divide A String Into Groups Of Size K,https://leetcode.com/problems/divide-a-string-into-groups-of-size-k/,2022-06-07 07:34:23
+Grouping,Medium,Problems,https://leetcode.com/problems/group-anagrams,2022-06-07 07:34:23
+Grouping,Medium,Problems,https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to,2022-06-07 07:34:23
+Grouping,Hard,Similar String Groups,https://leetcode.com/problems/similar-string-groups/,2022-06-07 07:34:23
+Game theory,Easy,Nim Game,https://leetcode.com/problems/nim-game/,2022-06-08 09:08:15
+Game theory,Medium,Problems,https://leetcode.com/problems/stone-game,2022-06-08 09:08:15
+Game theory,Medium,Problems,https://leetcode.com/problems/stone-game-ii,2022-06-08 09:08:15
+Game theory,Hard,Problems,https://leetcode.com/problems/guess-the-word,2022-06-08 09:08:15
+Ancestors of trees,Easy,Problems,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree,2022-06-09 15:26:38
+Ancestors of trees,Medium,Problems,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree,2022-06-09 15:26:38
+Ancestors of trees,Medium,Problems,https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves,2022-06-09 15:26:38
+Ancestors of trees,Hard,Problems,https://leetcode.com/problems/kth-ancestor-of-a-tree-node,2022-06-09 15:26:38
+Longest substring,Easy,Problems,https://leetcode.com/problems/longest-nice-substring,2022-06-10 10:22:38
+Longest substring,Medium,Problems,https://leetcode.com/problems/swap-for-longest-repeated-character-substring,2022-06-10 10:22:38
+Longest substring,Medium,Problems,https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters,2022-06-10 10:22:38
+Longest substring,Hard,Problems,https://leetcode.com/problems/longest-duplicate-substring,2022-06-10 10:22:38
+Lexicographic strings.,Medium,Problems,https://leetcode.com/problems/lexicographically-smallest-string-after-applying-operations,2022-06-13 14:05:10
+Lexicographic strings.,Medium,Problems,https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n,2022-06-13 14:05:10
+Lexicographic strings.,Hard,Problems,https://leetcode.com/problems/last-substring-in-lexicographical-order,2022-06-13 14:05:10
+Islands,Easy,Problems,https://leetcode.com/problems/island-perimeter,2022-06-14 17:06:31
+Islands,Medium,Problems,https://leetcode.com/problems/max-area-of-island,2022-06-14 17:06:31
+Islands,Medium,Problems,https://leetcode.com/problems/count-sub-islands,2022-06-14 17:06:31
+Islands,Hard,Problems,https://leetcode.com/problems/making-a-large-island,2022-06-14 17:06:31
+Pairing,Easy,Divide Array Into Equal Pairs,https://leetcode.com/problems/divide-array-into-equal-pairs/,2022-06-15 05:50:14
+Pairing,Medium,Maximum Length Of Pair Chain,https://leetcode.com/problems/maximum-length-of-pair-chain/,2022-06-15 05:50:14
+Pairing,Medium,Maximum Distance Between A Pair Of Values,https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/,2022-06-15 05:50:14
+Pairing,Hard,Reverse Pairs,https://leetcode.com/problems/reverse-pairs/,2022-06-15 05:50:14
+2d grids,Easy,Shift 2D Grid,https://leetcode.com/problems/shift-2d-grid/,2022-06-16 10:13:34
+2d grids,Medium,Grid Game,https://leetcode.com/problems/grid-game/,2022-06-16 10:13:34
+2d grids,Medium,Detect Cycles In 2D Grid,https://leetcode.com/problems/detect-cycles-in-2d-grid/,2022-06-16 10:13:34
+2d grids,Hard,Grid Illumination,https://leetcode.com/problems/grid-illumination/,2022-06-16 10:13:34
+N-ary trees,Easy,N Ary Tree Postorder Traversal,https://leetcode.com/problems/n-ary-tree-postorder-traversal/,2022-06-17 09:57:57
+N-ary trees,Easy,N Ary Tree Preorder Traversal,https://leetcode.com/problems/n-ary-tree-preorder-traversal/,2022-06-17 09:57:57
+N-ary trees,Easy,Maximum Depth Of N Ary Tree,https://leetcode.com/problems/maximum-depth-of-n-ary-tree/,2022-06-17 09:57:57
+N-ary trees,Medium,N Ary Tree Level Order Traversal,https://leetcode.com/problems/n-ary-tree-level-order-traversal/,2022-06-17 09:57:57
+Minimum distance,Easy,Problems,https://leetcode.com/problems/shortest-distance-to-a-character,2022-06-20 11:17:18
+Minimum distance,Medium,Problems,https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations,2022-06-20 11:17:18
+Minimum distance,Medium,Problems,https://leetcode.com/problems/maximize-distance-to-closest-person,2022-06-20 11:17:18
+Minimum distance,Hard,Problems,https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers,2022-06-20 11:17:18
+Chess,Easy,Problems,https://leetcode.com/problems/determine-color-of-a-chessboard-square,2022-06-22 10:58:36
+Chess,Medium,Queens That Can Attack The King,https://leetcode.com/problems/queens-that-can-attack-the-king/,2022-06-22 10:58:36
+Chess,Medium,Knight Dialer,https://leetcode.com/problems/knight-dialer/,2022-06-22 10:58:36
+Chess,Hard,Problems,https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard,2022-06-22 10:58:36
+Maximum subarray dp,Easy,Problems,https://leetcode.com/problems/maximum-subarray,2022-06-23 11:48:12
+Maximum subarray dp,Medium,Problems,https://leetcode.com/problems/maximum-sum-circular-subarray,2022-06-23 11:48:12
+Maximum subarray dp,Medium,Problems,https://leetcode.com/problems/maximum-product-subarray,2022-06-23 11:48:12
+Maximum subarray dp,Medium,Problems,https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product,2022-06-23 11:48:12
+Graphs,Easy,Problems,https://leetcode.com/problems/flood-fill,2022-06-24 17:01:08
+Graphs,Medium,Problems,https://leetcode.com/problems/time-needed-to-inform-all-employees,2022-06-24 17:01:08
+Graphs,Medium,Problems,https://leetcode.com/problems/find-eventual-safe-states,2022-06-24 17:01:08
+Graphs,Hard,Problems,https://leetcode.com/problems/shortest-path-visiting-all-nodes,2022-06-24 17:01:08
+Array partitioning,Easy,Partition Array Into Three Parts With Equal Sum,https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum/,2022-06-27 14:54:08
+Array partitioning,Medium,Partition Array Into Disjoint Intervals,https://leetcode.com/problems/partition-array-into-disjoint-intervals/,2022-06-27 14:54:08
+Array partitioning,Medium,Partition Array For Maximum Sum,https://leetcode.com/problems/partition-array-for-maximum-sum/,2022-06-27 14:54:08
+Array partitioning,Hard,Partition Array Into Two Arrays To Minimize Sum Difference,https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/,2022-06-27 14:54:08
+Missing values,Easy,Problems,https://leetcode.com/problems/missing-number,2022-06-28 16:54:32
+Missing values,Easy,Problems,https://leetcode.com/problems/kth-missing-positive-number,2022-06-28 16:54:32
+Missing values,Medium,Find Missing Observations,https://leetcode.com/problems/find-missing-observations/,2022-06-28 16:54:32
+Missing values,Hard,Problems,https://leetcode.com/problems/first-missing-positive,2022-06-28 16:54:32
+Data streams,Easy,Problems,https://leetcode.com/problems/kth-largest-element-in-a-stream,2022-06-29 15:53:18
+Data streams,Medium,Problems,https://leetcode.com/problems/online-stock-span,2022-06-29 15:53:18
+Data streams,Medium,Problems,https://leetcode.com/problems/product-of-the-last-k-numbers,2022-06-29 15:53:18
+Data streams,Hard,Problems,https://leetcode.com/problems/stream-of-characters,2022-06-29 15:53:18
+Minimum moves,Easy,Problems,https://leetcode.com/problems/minimum-moves-to-convert-string,2022-06-30 16:10:58
+Minimum moves,Medium,Problems,https://leetcode.com/problems/minimum-moves-to-equal-array-elements,2022-06-30 16:10:58
+Minimum moves,Medium,Minimum Moves To Equal Array Elements Ii,https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/,2022-06-30 16:10:58
+Minimum moves,Hard,Minimum Moves To Reach Target With Rotations,https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations/,2022-06-30 16:10:58
+Greedy,Easy,Problems,https://leetcode.com/problems/remove-digit-from-number-to-maximize-result,2022-07-01 13:03:51
+Greedy,Medium,Problems,https://leetcode.com/problems/minimum-operations-to-halve-array-sum,2022-07-01 13:03:51
+Greedy,Medium,Problems,https://leetcode.com/problems/maximum-split-of-positive-even-integers,2022-07-01 13:03:51
+Greedy,Hard,Problems,https://leetcode.com/problems/earliest-possible-day-of-full-bloom,2022-07-01 13:03:51
+Bsts,Easy,Problems,https://leetcode.com/problems/find-mode-in-binary-search-tree,2022-07-04 15:45:28
+Bsts,Medium,Problems,https://leetcode.com/problems/insert-into-a-binary-search-tree,2022-07-04 15:45:28
+Bsts,Medium,Problems,https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal,2022-07-04 15:45:28
+Bsts,Hard,Problems,https://leetcode.com/problems/maximum-sum-bst-in-binary-tree,2022-07-04 15:45:28
+Consecutive numbers,Easy,Max Consecutive Ones,https://leetcode.com/problems/max-consecutive-ones/,2022-07-05 15:12:38
+Consecutive numbers,Medium,Concatenation Of Consecutive Binary Numbers,https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/,2022-07-05 15:12:38
+Consecutive numbers,Medium,Max Consecutive Ones Iii,https://leetcode.com/problems/max-consecutive-ones-iii/,2022-07-05 15:12:38
+Consecutive numbers,Hard,Non Negative Integers Without Consecutive Ones,https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/,2022-07-05 15:12:38
+Fibonacci,Easy,Fibonacci Number,https://leetcode.com/problems/fibonacci-number/,2022-07-06 14:59:16
+Fibonacci,Medium,Split Array Into Fibonacci Sequence,https://leetcode.com/problems/split-array-into-fibonacci-sequence/,2022-07-06 14:59:16
+Fibonacci,Medium,Length Of Longest Fibonacci Subsequence,https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/,2022-07-06 14:59:16
+Fibonacci,Medium,Find The Minimum Number Of Fibonacci Numbers Whose Sum Is K,https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/,2022-07-06 14:59:16
+Sorting,Easy,Problems,https://leetcode.com/problems/find-the-difference,2022-07-08 16:28:50
+Sorting,Medium,Problems,https://leetcode.com/problems/insertion-sort-list,2022-07-08 16:28:50
+Sorting,Medium,Problems,https://leetcode.com/problems/contains-duplicate-iii,2022-07-08 16:28:50
+Sorting,Hard,Problems,https://leetcode.com/problems/maximum-gap,2022-07-08 16:28:50
+Monotonic stack,Easy,Problems,https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop,2022-07-11 16:30:38
+Monotonic stack,Medium,Problems,https://leetcode.com/problems/maximum-width-ramp,2022-07-11 16:30:38
+Monotonic stack,Medium,Problems,https://leetcode.com/problems/online-stock-span,2022-07-11 16:30:38
+Monotonic stack,Hard,Problems,https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array,2022-07-11 16:30:38
+Squares,Easy,Problems,https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square,2022-07-12 16:56:47
+Squares,Medium,Problems,https://leetcode.com/problems/largest-1-bordered-square,2022-07-12 16:56:47
+Squares,Medium,Problems,https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold,2022-07-12 16:56:47
+Squares,Hard,Problems,https://leetcode.com/problems/falling-squares,2022-07-12 16:56:47
+Tree traversals,Easy,Problems,https://leetcode.com/problems/binary-tree-inorder-traversal,2022-07-13 16:59:56
+Tree traversals,Medium,Binary Tree Level Order Traversal,https://leetcode.com/problems/binary-tree-level-order-traversal/,2022-07-13 16:59:56
+Tree traversals,Medium,Problems,https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal,2022-07-13 16:59:56
+Tree traversals,Hard,Problems,https://leetcode.com/problems/recover-a-tree-from-preorder-traversal,2022-07-13 16:59:56
+Binary tree constructions,Easy,Problems,https://leetcode.com/problems/construct-string-from-binary-tree,2022-07-14 16:34:46
+Binary tree constructions,Medium,Construct Binary Tree From Preorder And Inorder Traversal,https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/,2022-07-14 16:34:46
+Binary tree constructions,Medium,Problems,https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal,2022-07-14 16:34:46
+Binary tree constructions,Medium,Problems,https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal,2022-07-14 16:34:46
+Areas,Easy,Problems,https://leetcode.com/problems/largest-triangle-area,2022-07-15 16:57:22
+Areas,Medium,Problems,https://leetcode.com/problems/minimum-area-rectangle,2022-07-15 16:57:22
+Areas,Medium,Problems,https://leetcode.com/problems/minimum-area-rectangle-ii,2022-07-15 16:57:22
+Areas,Hard,Problems,https://leetcode.com/problems/rectangle-area-ii,2022-07-15 16:57:22
+Geometry,Easy,Problems,https://leetcode.com/problems/largest-triangle-area,2022-07-18 16:38:54
+Geometry,Medium,Problems,https://leetcode.com/problems/rectangle-area,2022-07-18 16:38:54
+Geometry,Medium,Problems,https://leetcode.com/problems/valid-square,2022-07-18 16:38:54
+Geometry,Hard,Problems,https://leetcode.com/problems/max-points-on-a-line,2022-07-18 16:38:54
+Games,Medium,Problems,https://leetcode.com/problems/snakes-and-ladders,2022-07-22 12:43:09
+Games,Medium,Problems,https://leetcode.com/problems/queens-that-can-attack-the-king,2022-07-22 12:43:09
+Games,Hard,Dungeon Game,https://leetcode.com/problems/dungeon-game/,2022-07-22 12:43:09
+Rotated sorted arrays,Easy,Problems,https://leetcode.com/problems/check-if-array-is-sorted-and-rotated,2022-07-25 16:37:44
+Rotated sorted arrays,Medium,Problems,https://leetcode.com/problems/search-in-rotated-sorted-array-ii,2022-07-25 16:37:44
+Rotated sorted arrays,Medium,Problems,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array,2022-07-25 16:37:44
+Rotated sorted arrays,Hard,Problems,https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii,2022-07-25 16:37:44
+Binary tree ancestors,Easy,Problems,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree,2022-07-26 16:12:29
+Binary tree ancestors,Medium,Lowest Common Ancestor Of A Binary Tree,https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/,2022-07-26 16:12:29
+Binary tree ancestors,Medium,Problems,https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves,2022-07-26 16:12:29
+Binary tree ancestors,Hard,Problems,https://leetcode.com/problems/kth-ancestor-of-a-tree-node,2022-07-26 16:12:29
+Pattern recognition,Easy,Problems,https://leetcode.com/problems/word-pattern,2022-07-29 14:47:47
+Pattern recognition,Medium,Find And Replace Pattern,https://leetcode.com/problems/find-and-replace-pattern/,2022-07-29 14:47:47
+Pattern recognition,Medium,Problems,https://leetcode.com/problems/132-pattern,2022-07-29 14:47:47
+Multi-source bfs,Medium,Rotting Oranges,https://leetcode.com/problems/rotting-oranges/,2022-08-02 15:32:57
+Multi-source bfs,Medium,Shortest Bridge,https://leetcode.com/problems/shortest-bridge/,2022-08-02 15:32:57
+Multi-source bfs,Hard,Contain Virus,https://leetcode.com/problems/contain-virus/,2022-08-02 15:32:57
+Oop,Easy,Problems,https://leetcode.com/problems/number-of-recent-calls,2022-08-04 16:54:46
+Oop,Medium,Problems,https://leetcode.com/problems/implement-magic-dictionary,2022-08-04 16:54:46
+Oop,Medium,Problems,https://leetcode.com/problems/encode-and-decode-tinyurl,2022-08-04 16:54:46
+Oop,Hard,Problems,https://leetcode.com/problems/data-stream-as-disjoint-intervals,2022-08-04 16:54:46
+Graphs,Medium,Problems,https://leetcode.com/problems/regions-cut-by-slashes,2022-08-05 16:03:03
+Graphs,Medium,Problems,https://leetcode.com/problems/shortest-path-with-alternating-colors,2022-08-05 16:03:03
+Graphs,Hard,Problems,https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies,2022-08-05 16:03:03
+Factors,Medium,Binary Trees With Factors,https://leetcode.com/problems/binary-trees-with-factors/,2022-08-09 16:08:40
+Factors,Medium,Problems,https://leetcode.com/problems/the-kth-factor-of-n,2022-08-09 16:08:40
+Factors,Hard,Problems,https://leetcode.com/problems/largest-component-size-by-common-factor,2022-08-09 16:08:40
