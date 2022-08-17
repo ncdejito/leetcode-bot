@@ -20,7 +20,7 @@ def main(time_now, schedule_et, destination):
             post += problem_set.get_problems(day=current_batch_day) + "\n"
 
         if no_duplicate_posts(
-            post=post, from_latest_x_posts=10, _in=destination
+            post=post, from_latest_x_posts=1, _in=destination
         ):
             send(post, client, destination)
 
