@@ -25,16 +25,16 @@ def get_client():
     )
 
 
-def send(content="test", client=None, destination="staging"):
+def send(content="test", client=None, to="staging"):
     # Send a stream message
-    request = address[destination]
+    request = address[to]
     request["content"] = content
     result = client.send_message(request)
 
 
-def get_posts(num_before=10, client=None, destination="staging"):
+def get_posts(num_before=10, client=None, _from="staging"):
     # Get the latest messages sent by "iago@zulip.com" to the stream "Verona"
-    request = address[destination]
+    request = address[_from]
     request = {
         "anchor": "newest",
         "num_before": num_before,
