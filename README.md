@@ -1,6 +1,12 @@
 # leetcode-bot
+<p>
+    <a href="https://github.com/ncdejito/leetcode-bot/graphs/contributors">
+    <img src="assets/coverage.svg" alt="coverage" />
+    </a>
+</p>
 
-Sends problems daily to Recurse Center's Zulip
+
+Sends problems daily to Recurse Center's Zulip client.
 
 ## Scheduling
 Currently sending every 10AM ET on ET weekdays.
