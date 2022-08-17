@@ -1,27 +1,35 @@
 import arrow
 from .zulip_comms import get_posts
+from arrow.arrow import Arrow
 
-now = arrow.utcnow()
+
+def now():
+    return arrow.utcnow().to("US/Eastern")
 
 
-def no_similar_posts(post, from_hours_before=24):
-    # this_time_yesterday = now.shift(hours=-from_hours_before)
-    # posts = get_posts(num_before=10,client)
-
-    return True
+def to_date(schedule_et) -> Arrow:
+    if type(schedule_et) is Arrow:
+        return schedule_et
+    else:
+        # make compliant to ISO 8601
+        parts = now().format("YYYY-MM-DD HH:mm:ss ZZ").split(" ")
+        schedule_text = parts[0] + "T" + schedule_et + parts[2]
+        return arrow.get(schedule_text)
 
 
 def on_schedule(
-    schedule=arrow.get("2013-05-11T10:00:00+00:00"),
+    time_now,
+    schedule_et="10:00:00",  # can also be time of type Arrow
     acceptable_window_mins=5,
 ):
-    # window_min = (schedule.shift(minute=-acceptable_window_mins),)
-    # window_max = (schedule.shift(minute=acceptable_window_mins),)
+    schedule = to_date(schedule_et)
+    window_min = schedule.shift(minutes=-acceptable_window_mins)
+    window_max = schedule.shift(minutes=acceptable_window_mins)
 
-    # if window_min < now < window_max:
-    #     return True
-
-    return True
+    if time_now < window_max and time_now > window_min:
+        return True
+    else:
+        return False
 
 
 def get_batch(date):

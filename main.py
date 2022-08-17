@@ -1,28 +1,30 @@
 #!/usr/bin/env python3
 
 from src.problem_sets import problem_sets
-from src.zulip_comms import send, get_client
-from src.scheduling import on_schedule, no_similar_posts
+from src.zulip_comms import send, get_client, no_duplicate_posts
+from src.scheduling import get_batch_day, on_schedule, now
 
 
 client = get_client()
 
 
-def main(destination="staging"):
+def main(time_now, destination="staging"):
 
-    if on_schedule():
+    post = ""
 
-        post = ""
-
+    if on_schedule(time_now, schedule_et="10:00:00"):
+        current_batch_day = 1  # get_batch_day(time_now) not implemented yet
         for problem_set in problem_sets:
-            post += problem_set.get_problems() + "\n"
+            post += problem_set.get_problems(day=current_batch_day) + "\n"
 
-        if no_similar_posts(post=post, from_hours_before=24):
+        if no_duplicate_posts(
+            post=post, from_latest_x_posts=10, _in=destination
+        ):
             send(post, client, destination)
 
     return post
 
 
 if __name__ == "main":
-    # _ = main(destination="prod")
+    # _ = main(time_now=now(),destination="prod")
     pass

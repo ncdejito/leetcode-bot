@@ -1,32 +1,37 @@
 from main import main, client
-from bs4 import BeautifulSoup
-from src.zulip_comms import get_posts
+from src.zulip_comms import get_posts, clean_sent, clean_received
+from src.scheduling import to_date
 import time
-import re
 
 
-def test_main():
+def test_main_on_schedule():
+    # TODO: fix state-dependence - if you run once, the uploaded text persists on zulip
 
     # send post
-    post = main(destination="staging")
+    post = main(time_now=to_date("10:00:00"), destination="staging")
 
     time.sleep(1)
-    results = get_posts(num_before=1, client=client)
-    recs = []
-    for msg in results["messages"]:
-        html = BeautifulSoup(msg["content"])
-        text = html.get_text()
-        recs.append(text)
+    recs = get_posts(num_before=1, client=client)
+    text = recs[-1]  # latest
 
-    def clean(s, pattern):
-        return (
-            " ".join(re.compile(pattern).findall("\n".join(s)))
-            .lower()
-            .replace(" ", "")
-        )
+    sent = clean_sent(post)
 
-    clean_post = clean(post, "\[.*\]").replace("[", "").replace("]", "")
+    received = clean_received(text)
 
-    clean_text = clean(text, "\).*").replace(")", "")
+    assert sent == received
 
-    assert clean_post == clean_text
+
+def test_main_not_on_schedule():
+
+    # send post
+    post = main(time_now=to_date("11:00:00"), destination="staging")
+
+    time.sleep(1)
+    recs = get_posts(num_before=1, client=client)
+    text = recs[-1]  # latest
+
+    sent = clean_sent(post)
+
+    received = clean_received(text)
+
+    assert sent != received

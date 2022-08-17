@@ -1,13 +1,21 @@
 import pytest
-from src.scheduling import on_schedule, no_similar_posts
+from src.scheduling import on_schedule, to_date, now
 
 
-def test_if_on_schedule():
-    assert 1 == 0
-
-
-def test_no_similar_posts():
-    assert 1 == 0
+@pytest.mark.parametrize(
+    "time_now, schedule_et, acceptable_window_mins, expected",
+    [
+        (now(), now(), 5, True),
+        (to_date("10:00:00"), to_date("10:00:00"), 5, True),
+        (to_date("11:00:00"), to_date("10:00:00"), 5, False),
+    ],
+)
+def test_if_on_schedule(
+    time_now, schedule_et, acceptable_window_mins, expected
+):
+    assert (
+        on_schedule(time_now, schedule_et, acceptable_window_mins) == expected
+    )
 
 
 @pytest.mark.skip(reason="")
