@@ -28,6 +28,7 @@ def main(time_now, schedule_et, destination):
 
 
 if __name__ == "main":
+    send("test send", client, to="staging")
     post = main(
         time_now=now(),
         schedule_et="07:10:00",  # "10:00:00"
