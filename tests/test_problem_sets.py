@@ -36,13 +36,12 @@ def test_if_batch_covers_whole_curriculum():
         assert len(not_covered) == 0
 
 
-@pytest.mark.skip(reason="")
 def test_if_beginner_friendly():
-    for problem_set in problem_sets:
-        # day1-10 have easy problems
-        for batch_day in range(1, 11):
-            text = problem_set.get_problems(batch_day)
-            assert "easy" in text.lower()
+    problem_set = Blind75()
+    # day1-10 have easy problems
+    for batch_day in range(1, 120):
+        text = problem_set.get_problems(batch_day)
+        assert "easy" in text.lower()
 
 
 def test_if_problems_change_per_day():
