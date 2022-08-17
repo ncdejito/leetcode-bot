@@ -8,11 +8,11 @@ from src.scheduling import get_batch_day, on_schedule, now
 client = get_client()
 
 
-def main(time_now, destination="staging"):
+def main(time_now, schedule_et, destination):
 
     post = ""
 
-    if on_schedule(time_now, schedule_et="10:00:00"):
+    if on_schedule(time_now, schedule_et=schedule_et):
 
         current_batch_day = get_batch_day(time_now)
 
@@ -28,5 +28,10 @@ def main(time_now, destination="staging"):
 
 
 if __name__ == "main":
-    # _ = main(time_now=now(),destination="prod")
-    pass
+    post = main(
+        time_now=now(),
+        schedule_et="06:40:00",  # "10:00:00"
+        destination="staging",  # "prod"
+    )
+    print("Post:")
+    print(post)
