@@ -31,7 +31,7 @@ if __name__ == "main":
     send("test send", client, to="staging")
     post = main(
         time_now=now(),
-        schedule_et="07:10:00",  # "10:00:00"
+        schedule_et="07:20:00",  # "10:00:00"
         destination="staging",  # "prod"
     )
     print("Post:")
