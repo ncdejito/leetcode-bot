@@ -38,5 +38,8 @@ def get_batch(date):
 
 
 def get_batch_day(date):
-    # what day is it in the batch (day1 for f1 2022)
-    return None
+    # TODO: what day is it in the batch (day1 for f1 2022)
+    # CURRENTLY: count progression of days, problem set will be based on modulo on problem_sets.get_problems
+    _now = date
+    day0 = arrow.get("1970-01-01")
+    return (_now - day0).days
