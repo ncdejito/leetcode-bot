@@ -30,7 +30,7 @@ def main(time_now, schedule_et, destination):
 if __name__ == "main":
     post = main(
         time_now=now(),
-        schedule_et="06:40:00",  # "10:00:00"
+        schedule_et="07:00:00",  # "10:00:00"
         destination="staging",  # "prod"
     )
     print("Post:")
