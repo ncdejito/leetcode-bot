@@ -1,5 +1,7 @@
 # leetcode-bot
 
+Sends problems daily to Recurse Center's Zulip
+
 ## Scheduling
 Add a job in Heroku Scheduler Dashboard
 ```
@@ -16,15 +18,22 @@ Heroku Scheduler is on UTC (i.e. ET + 4 = UTC)
 class CustomProblemSet(ProblemSet):
     def __init__(
         self,
-        csv="path/to/file.csv", 
+        csv="path/to/file.csv",
         name="Custom",
         description="This is a cool set",
     ):
-        self.csv = csv
         self.description = description
+        self.problems = pd.read_csv(csv)
+        self.covered_problems = []
 
-    def get_problems(self, date=None) -> str:
-        return "Zulip text of problems for a specific date"
+    def get_problems(self, day=None) -> str:
+        return """
+`Blind75` at neetcode.io
+1. (Easy) [Problem 1](https://link.to.problem)
+1. (Medium) [Problem 2](https://link.to.problem)
+1. (Hard) [Problem 3](https://link.to.problem)
+
+        """
 ```
 
 ## Setup
