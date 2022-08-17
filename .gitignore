@@ -1,4 +1,11 @@
+venv
+*.pyc
+staticfiles
+.env
 .envrc
+db.sqlite3
+getting-started/*
+
 zuliprc
 data/raw
 

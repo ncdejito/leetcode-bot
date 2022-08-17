@@ -1,1 +1,1 @@
-web: python -m http.server
+web: gunicorn gettingstarted.wsgi

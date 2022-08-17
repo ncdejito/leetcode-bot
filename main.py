@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from src.problem_sets import problem_sets
 from src.zulip_comms import send, get_client, no_duplicate_posts
 from src.scheduling import get_batch_day, on_schedule, now
@@ -8,7 +6,13 @@ from src.scheduling import get_batch_day, on_schedule, now
 client = get_client()
 
 
-def main(time_now, schedule_et, destination):
+def main():
+
+    # send("Sending from Heroku", client, to="staging")
+
+    time_now = now()
+    schedule_et = "10:00:00"  # "10:00:00"
+    destination = "prod"  # "prod" or "staging"
 
     post = ""
 
@@ -27,12 +31,5 @@ def main(time_now, schedule_et, destination):
     return post
 
 
-if __name__ == "main":
-    send("test send", client, to="staging")
-    post = main(
-        time_now=now(),
-        schedule_et="07:20:00",  # "10:00:00"
-        destination="staging",  # "prod"
-    )
-    print("Post:")
-    print(post)
+if __name__ == "__main__":
+    main()
