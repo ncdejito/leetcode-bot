@@ -3,11 +3,24 @@ from abc import ABC
 
 
 class ProblemSet(ABC):
-    def init(self, csv, name, description):
-        pass
+    def __init__(
+        self,
+        csv="path/to/file.csv",
+        name="Custom",
+        description="This is a cool set",
+    ):
+        self.description = description
+        self.problems = pd.read_csv(csv)
+        self.covered_problems = []
 
-    def get_problems(self, date=None) -> str:
-        return ""
+    def get_problems(self, day=None) -> str:
+        return """
+`Blind75` at neetcode.io
+1. (Easy) [Problem 1](https://link.to.problem)
+1. (Medium) [Problem 2](https://link.to.problem)
+1. (Hard) [Problem 3](https://link.to.problem)
+
+        """
 
 
 class Blind75(ProblemSet):
