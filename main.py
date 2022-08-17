@@ -13,7 +13,9 @@ def main(time_now, destination="staging"):
     post = ""
 
     if on_schedule(time_now, schedule_et="10:00:00"):
-        current_batch_day = 1  # get_batch_day(time_now) not implemented yet
+
+        current_batch_day = get_batch_day(time_now)
+
         for problem_set in problem_sets:
             post += problem_set.get_problems(day=current_batch_day) + "\n"
 
