@@ -2,6 +2,7 @@
 
 import zulip
 from typing import Dict, Any
+import os
 
 # Pass the path to your zuliprc file here.
 client = zulip.Client(config_file="zuliprc")
@@ -12,10 +13,9 @@ request: Dict[str, Any] = {
     "num_before": 100,
     "num_after": 0,
     "narrow": [
-        
         {"operator": "stream", "operand": "397 Bridge"},
         {"operator": "topic", "operand": "Daily LeetCode!"},
-        {"operator": "sender", "operand": "patrathewhiz@gmail.com"},
+        {"operator": "sender", "operand": os.environ.get("ENJECK_EMAIL")},
     ],
 }
 result = client.get_messages(request)
