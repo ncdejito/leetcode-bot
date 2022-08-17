@@ -14,10 +14,19 @@ Install
 * Python 3.10.6
 * PostgreSQL 12.11
 * Ubuntu 20.04.1
-* Poetry
 * [Heroku Scheduler](https://devcenter.heroku.com/articles/scheduler#dyno-hour-costs)
 
-## Deploy
+## Development
+
+Push changes
+```
+heroku login
+heroku create # shows GIT_URL_OF_APP
+git remote set-url heroku <GIT_URL_OF_APP>
+git push heroku main
+heroku ps:scale web=1
+```
+
 Push config
 ```
 heroku config:set ZULIP_EMAIL=leetcode-test-bot@recurse.zulipchat.com
@@ -25,13 +34,20 @@ heroku config:set ZULIP_API_KEY=<API_KEY>
 heroku config:set ZULIP_SITE=https://recurse.zulipchat.com
 ```
 
-Push changes
-```
-git push heroku main
-```
-
-## Run
 Send 1 message
 ```
-heroku run python main.py
+# heroku run python main.py
+heroku local
+```
+
+Install scheduler
+```
+heroku addons:create scheduler:standard
+heroku addons:open scheduler 
+# create job then set to daily at 14:00:00 UTC
+```
+
+View logs
+```
+heroku logs --tail
 ```
