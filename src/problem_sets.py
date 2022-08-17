@@ -1,4 +1,5 @@
 import pandas as pd
+import arrow
 from abc import ABC
 
 
@@ -31,19 +32,34 @@ class Blind75(ProblemSet):
         description="`Blind75` at neetcode.io",
     ):
         self.description = description
-        self.problems = (
-            pd.read_csv(csv)
-            .sample(frac=1, random_state=42)
-            .reset_index(drop=True)
-        )
+        self.problems = pd.read_csv(csv)
         self.covered_problems = []
 
     def get_problems(self, day=99) -> str:
-        # when day exceeds problems available, start again from 1
+
         ind = day % len(self.problems)
+
+        # get 1 problem from easy
+        easy_problems = self.problems.query(
+            "Difficulty == 'Easy'"
+        ).reset_index()
+        # when day exceeds problems available, start again from 1
+        easy_ind = day % len(easy_problems)
+        easy_problem = easy_problems.loc[[easy_ind]].set_index("index")
+
+        # get 1 problem from medium/hard
+        hard_problems = self.problems[
+            self.problems["Difficulty"].isin(["Medium", "Hard"])
+        ].reset_index()
+        # when day exceeds problems available, start again from 1
+        hard_ind = day % len(hard_problems)
+        hard_problem = hard_problems.loc[[hard_ind]].set_index("index")
+
         # get 2 problems at a time
-        problems = self.problems.loc[2 * (ind - 1) : 2 * (ind - 1) + 1, :]
+        problems = pd.concat([easy_problem, hard_problem], axis=0)
         self.covered_problems += problems.index.tolist()
+
+        # write post
         text = self.description + "\n"
         for _, row in problems.reset_index(drop=True).iterrows():
             text += (
@@ -71,13 +87,24 @@ class Enjeck322(ProblemSet):
         self.covered_problems = []
 
     def get_problems(self, day=99) -> str:
+        # cycle through enjeck's zulip posts in order
         dates = self.problems.date.unique().tolist()
-        # when day exceeds problems available, start again from 1
+
+        # when day input exceeds days available, start again from 1
         ind = day % len(dates)
+
+        # get problems for dates
         problems = self.problems[self.problems.date == dates[ind]]
         self.covered_problems += problems.index.tolist()
+
+        # write post
         category = problems["Category"].tolist()[0]
-        text = self.description + "\n" + f"Theme is {category}:\n"
+        weekday = arrow.utcnow().shift(hours=-4).format("dddd")
+        text = (
+            self.description
+            + "\n"
+            + f"Problems for {weekday}, theme is {category}:\n"
+        )
         for _, row in problems.reset_index(drop=True).iterrows():
             text += (
                 "1. ("
