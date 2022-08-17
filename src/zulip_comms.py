@@ -1,5 +1,7 @@
 import zulip
 import os
+import re
+from bs4 import BeautifulSoup
 
 # Staging
 address = {
@@ -48,5 +50,44 @@ def get_posts(num_before=10, client=None, _from="staging"):
             },
         ],
     }
-    result = client.get_messages(request)
-    return result
+    results = client.get_messages(request)
+    recs = []
+    for msg in results["messages"]:
+        html = BeautifulSoup(msg["content"], "html.parser")
+        text = html.get_text()
+        recs.append(text)
+
+    return recs
+
+
+def no_duplicate_posts(post, from_latest_x_posts=10, _in="staging"):
+    client = get_client()
+
+    recs = get_posts(
+        num_before=from_latest_x_posts, client=client, _from="staging"
+    )
+
+    occurrences = 0
+    for text in recs:
+        sent = clean_sent(post)
+        received = clean_received(text)
+        if sent == received:
+            occurrences += 1
+            print(f"Sent: {sent}")
+            print(f"Received: {received}")
+
+    return occurrences == 0
+
+
+def clean(s, pattern):
+    return " ".join(re.compile(pattern).findall(s)).lower().replace(" ", "")
+
+
+def clean_sent(post):
+    # finds problem names inside square brackets e.g. problem 1 in [problem 1](neetcode.io)
+    return clean(post, "\[.*\]").replace("[", "").replace("]", "")
+
+
+def clean_received(text):
+    # finds problem names right outside parentheses e.g. problem 1 in (easy) problem 1\n
+    return clean(text, "\).*").replace(")", "")
