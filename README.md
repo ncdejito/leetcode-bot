@@ -1,4 +1,7 @@
+
 # leetcode-bot
+<img src="assets/leetcode-bot.png" alt="logo" width="100" height="100" align="right"/>
+
 <p>
     <a href="https://github.com/ncdejito/leetcode-bot/graphs/contributors">
     <img src="assets/coverage.svg" alt="coverage" />
