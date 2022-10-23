@@ -12,7 +12,7 @@ address = {
     },
     "prod": {
         "type": "stream",
-        "to": "397 Bridge",
+        "to": "current batches",
         "topic": "Daily LeetCode!",
     },
 }
