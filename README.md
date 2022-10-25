@@ -14,6 +14,10 @@ Sends problems daily to Recurse Center's Zulip client.
 ## Scheduling
 Currently sending every 10AM ET on ET weekdays.
 
+```
+yacron -c /app/crontab.yml &
+```
+
 ## Custom ProblemSet
 1. CSV file of problem sets (see `data/blind75.csv` for example)
 * should have columns ["Category","Difficulty","Problem","Link"]
@@ -42,4 +46,4 @@ class CustomProblemSet(ProblemSet):
 1. run pytest
 
 ## Other Notes
-For setting up, please see `SETUP.md`
+Heroku app migrated to Fly.io, crontab using yacron
