@@ -15,7 +15,7 @@ Sends problems daily to Recurse Center's Zulip client.
 Currently sending every 10AM ET on ET weekdays.
 
 ```
-yacron -c /app/crontab.yml &
+yacron -c crontab.yml
 ```
 
 ## Custom ProblemSet
@@ -45,5 +45,13 @@ class CustomProblemSet(ProblemSet):
 ```
 1. run pytest
 
-## Other Notes
-Heroku app migrated to Fly.io, crontab using yacron
+## Deployment
+1. Create .env
+```
+ZULIP_API_KEY=$(ZULIP_API_KEY)
+ZULIP_EMAIL=$(ZULIP_EMAIL)
+ZULIP_SITE=$(ZULIP_SITE)
+```
+2. Load to environment with `source .env`
+3. Create flyio app using `make build`
+4. Deploy to flyio using `make deploy`

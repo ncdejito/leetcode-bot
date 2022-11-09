@@ -1,5 +1,6 @@
 jobs:
   - name: test-01
-    command: sh /app/run.sh
+    command: sh run.sh
     shell: /bin/sh
     schedule: "0 14 * * *"
+    # schedule: "*/1 * * * *"
