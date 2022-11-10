@@ -12,7 +12,11 @@
 Sends problems daily to Recurse Center's Zulip client.
 
 ## Scheduling
-Currently sending every 10AM ET on ET weekdays.
+Currently sending every day at these times:
+
+RC NY community - ET 11:00
+flyio server - UTC 16:00
+Developer in PH time - UTC+8 24:00
 
 ```
 yacron -c crontab.yml
@@ -53,5 +57,18 @@ ZULIP_EMAIL=$(ZULIP_EMAIL)
 ZULIP_SITE=$(ZULIP_SITE)
 ```
 2. Load to environment with `source .env`
-3. Create flyio app using `make build`
-4. Deploy to flyio using `make deploy`
+3. Create flyio app
+```
+flyctl launch --dockerfile Dockerfile
+```
+
+no to all
+type leetcode-bot-2
+lax
+
+```
+flyctl secrets set --app leetcode-bot-2 ZULIP_API_KEY=$ZULIP_API_KEY ZULIP_EMAIL=$ZULIP_EMAIL ZULIP_SITE=$ZULIP_SITE
+```
+
+4. Deploy to flyio
+flyctl deploy --dockerfile Dockerfile --app leetcode-bot-2
