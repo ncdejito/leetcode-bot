@@ -1,4 +1,4 @@
-# fly.toml file generated for leetcode-bot-2 on 2022-11-10T23:25:41+08:00
+# fly.toml file generated for leetcode-bot-2 on 2022-11-18T19:44:42+08:00
 
 app = "leetcode-bot-2"
 kill_signal = "SIGINT"

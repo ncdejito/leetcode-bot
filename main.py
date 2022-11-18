@@ -8,10 +8,8 @@ client = get_client()
 
 def main():
 
-    # send("Sending from Heroku", client, to="staging")
-
     time_now = now()
-    schedule_et = "11:00:00"  # "10:00:00"
+    schedule_et = "09:00:00"
     destination = "prod"  # "prod" or "staging"
 
     post = ""
