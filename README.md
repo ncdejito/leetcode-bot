@@ -62,15 +62,16 @@ ZULIP_SITE=$(ZULIP_SITE)
 flyctl launch --dockerfile Dockerfile
 ```
 
-no to all
-app name: leetcode-bot-2
-region for deployment: lax
+no to all; 
+app name: leetcode-bot; 
+region for deployment: lax; 
+deploy now: N
 
 ```
-flyctl secrets set --app leetcode-bot-2 ZULIP_API_KEY=$ZULIP_API_KEY ZULIP_EMAIL=$ZULIP_EMAIL ZULIP_SITE=$ZULIP_SITE
+flyctl secrets set --app leetcode-bot ZULIP_API_KEY=$ZULIP_API_KEY ZULIP_EMAIL=$ZULIP_EMAIL ZULIP_SITE=$ZULIP_SITE
 ```
 
 4. Deploy to flyio
 ```
-flyctl deploy --dockerfile Dockerfile --app leetcode-bot-2
+flyctl deploy --dockerfile Dockerfile --app leetcode-bot
 ```
