@@ -1,8 +1,9 @@
-# fly.toml file generated for leetcode-bot-2 on 2022-11-18T19:44:42+08:00
+# fly.toml file generated for leetcode-bot on 2023-03-17T16:38:07+08:00
 
-app = "leetcode-bot-2"
+app = "leetcode-bot"
 kill_signal = "SIGINT"
 kill_timeout = 5
+primary_region = "lax"
 processes = []
 
 [build]
@@ -11,7 +12,6 @@ processes = []
 [env]
 
 [experimental]
-  allowed_public_ports = []
   auto_rollback = true
 
 [[services]]
