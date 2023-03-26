@@ -6,18 +6,26 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  ZULIP_API_KEY: ${{secrets.ZULIP_API_KEY}}
+  ZULIP_EMAIL: ${{secrets.ZULIP_EMAIL}}
+  ZULIP_SITE: ${{secrets.ZULIP_SITE}}
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-python@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
         with:
-          python-version: 3.10
-      - run: pytest
-      # - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
-      #   with:
-      #     heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-      #     heroku_app_name: "stormy-sierra-77156" #Must be unique in Heroku
-      #     heroku_email: "ncdejito@gmail.com"
+          python-version: 3.10.6
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run pytest
+        run: pytest
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy --dockerfile Dockerfile --app leetcode-bot --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
       
