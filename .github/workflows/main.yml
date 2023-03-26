@@ -28,9 +28,4 @@ jobs:
       - run: flyctl deploy --dockerfile Dockerfile --app leetcode-bot --remote-only
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-      # - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
-      #   with:
-      #     heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-      #     heroku_app_name: "stormy-sierra-77156" #Must be unique in Heroku
-      #     heroku_email: "ncdejito@gmail.com"
       
