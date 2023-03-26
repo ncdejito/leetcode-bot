@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ main ]
 
+env:
+  ZULIP_API_KEY: ${{secrets.ZULIP_API_KEY}}
+  ZULIP_EMAIL: ${{secrets.ZULIP_EMAIL}}
+  ZULIP_SITE: ${{secrets.ZULIP_SITE}}
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,8 +23,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run pytest
-        env:
-          ZULIP_API_KEY: ${{secrets.ZULIP_API_KEY}}
         run: pytest
       # - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       #   with:
