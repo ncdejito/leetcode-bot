@@ -18,6 +18,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run pytest
+        env:
+          ZULIP_API_KEY: ${{secrets.ZULIP_API_KEY}}
         run: pytest
       # - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       #   with:
