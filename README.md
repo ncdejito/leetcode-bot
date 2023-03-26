@@ -14,7 +14,7 @@ Sends problems daily to Recurse Center's Zulip client.
 ## Scheduling
 Currently sending every day at these times:
 
-* RC NY community - ET 09:00
+* RC NY community - ET 10:00
 * flyio server - UTC 14:00
 * Developer in PH time - UTC+8 22:00
 

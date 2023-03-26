@@ -9,12 +9,12 @@ client = get_client()
 def main():
 
     time_now = now()
-    schedule_et = "09:00:00"
+    schedule_et = "10:00:00"
     destination = "prod"  # "prod" or "staging"
 
     post = ""
 
-    if on_schedule(time_now, schedule_et=schedule_et):
+    if on_schedule(time_now, schedule_et=schedule_et, acceptable_window_mins=15):
 
         current_batch_day = get_batch_day(time_now)
 
