@@ -12,7 +12,7 @@ env:
   ZULIP_SITE: ${{secrets.ZULIP_SITE}}
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,6 +24,9 @@ jobs:
         run: pip install -r requirements.txt
       - name: Run pytest
         run: pytest
+      - run: flyctl deploy --dockerfile Dockerfile --app leetcode-bot --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
       # - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
       #   with:
       #     heroku_api_key: ${{secrets.HEROKU_API_KEY}}
