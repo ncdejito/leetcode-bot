@@ -16,6 +16,7 @@ processes = []
 
 [processes]
   sleep = "sleep infinity"
+  cron_job = "yacron -c /app/crontab.yml"
 
 [[services]]
-  processes = ["sleep"]
+  processes = ["sleep", "cron_job"]
