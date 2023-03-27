@@ -15,8 +15,7 @@ processes = []
   auto_rollback = true
 
 [processes]
-  sleep = "sleep infinity"
   cron_job = "yacron -c /app/crontab.yml"
 
 [[services]]
-  processes = ["sleep", "cron_job"]
+  processes = ["cron_job"]
