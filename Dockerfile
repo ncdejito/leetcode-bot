@@ -12,4 +12,6 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 COPY . /app
 
+RUN chmod +x run.sh
+
 CMD ["yacron", "-c", "crontab.yml"]
